@@ -68,7 +68,7 @@ const Home = () => {
                         {/* --- Left Content --- */}
                         <div className="flex flex-col space-y-6 md:space-y-8 text-center lg:text-left items-center lg:items-start">
 
-                            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-[#4A3728] leading-[1.1] tracking-tight">
+                            <h1 className="text-5xl md:text-7xl mt-8 lg:text-8xl text-left font-serif text-[#4A3728] leading-[1.1] tracking-tight">
                                 Bliss in Every <br />
                                 <span className="relative inline-block">
                                     <span className="italic font-light text-[#BA153F]">Bite</span>
@@ -78,7 +78,7 @@ const Home = () => {
                                 </span>
                             </h1>
 
-                            <p className="text-lg md:text-xl text-[#4A3728]/80 max-w-lg leading-relaxed font-light">
+                            <p className="text-lg text-left md:text-xl text-[#4A3728]/80 max-w-lg leading-relaxed font-light">
                                 Handcrafted artisanal delights made with organic ingredients and a dash of magic. Experience the art of fine baking delivered to your doorstep.
                             </p>
 
@@ -288,10 +288,9 @@ const Home = () => {
             </section>
 
             {/* --- EXPLORE MENU (Grid Layout) --- */}
-            <section className="py-28 bg-[#FDFCFB] text-[#2C2420]">
+            <section className="py-15 bg-[#FDFCFB] text-[#2C2420]">
                 {/* Header & Navigation */}
                 <div className="container mx-auto px-6 mb-16 text-center">
-                    <span className="text-[10px] uppercase tracking-[0.4em] text-stone-400 mb-4 block font-bold">Selection</span>
                     <h2 className="text-5xl md:text-7xl font-serif mb-10 italic">Explore the <span className="not-italic text-[#4A3728]">Menu</span></h2>
 
                     <div className="flex justify-center gap-8 overflow-x-auto no-scrollbar pb-4 border-b border-stone-100 max-w-3xl mx-auto">
@@ -394,7 +393,7 @@ const Home = () => {
 
                     {/* The Quote with elegant typography */}
                     <div className="relative mb-12">
-                        <p className="text-3xl md:text-5xl font-serif leading-[1.4] text-white italic tracking-tight">
+                        <p className="text-2xl md:text-5xl font-serif leading-[1.4] text-white italic tracking-tight">
                             "The atmosphere at AURA is <span className="text-[#E9C46A]">unmatched</span>. It's where I come to find inspiration. The Berliners are quite simply the best I've had outside of Europe."
                         </p>
 
@@ -433,7 +432,7 @@ const Home = () => {
                 </div>
             </section>
             {/* --- VISIT SECTION --- */}
-            <section className="py-32 bg-[#FAF9F6] relative overflow-hidden">
+            <section className="py-15 bg-[#FAF9F6] relative overflow-hidden">
                 {/* Decorative Texture Overlay */}
                 <div className="absolute inset-0 opacity-[0.03] pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')]"></div>
 

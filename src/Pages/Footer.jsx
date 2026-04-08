@@ -35,9 +35,13 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
                     {/* Brand Column */}
                     <div className="space-y-4">
-                        <h2 className="text-3xl font-bold">
-                            <span className="text-[#BA153F]">AURA</span>
-                        </h2>
+                        <div className='flex flex-row gap-5 items-center' >
+
+                            <img src='/Aura.avif' className='h-15 w-15 rounded-full' />
+                            <h2 className="text-3xl font-bold">
+                                <span className="text-[#BA153F]">AURA</span>
+                            </h2>
+                        </div>
                         <p className="text-gray-400 leading-relaxed">
                             Crafting moments of quiet luxury. Artisan baked goods made with passion and the finest ingredients.
                         </p>
