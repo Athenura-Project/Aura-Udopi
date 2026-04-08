@@ -7,11 +7,14 @@ import Home from "./Pages/Home";
 import Cakes from "./Pages/Cakes";
 import FullAestheticMenu from "./Pages/Menu";
 import AuraBoulangerie from "./Pages/AuraBoulangerie";
+import ScrollToTop from "./ScrollToTop";
 
 
 const App = () => {
   return (
     <Router>
+    
+    <ScrollToTop /> 
       <Navbar />
 
       <Routes>
@@ -22,6 +25,7 @@ const App = () => {
 
       </Routes>
       <Footer />  
+      
     </Router>
   );
 };
