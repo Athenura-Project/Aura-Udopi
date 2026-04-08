@@ -17,8 +17,6 @@ const Navbar = () => {
     { name: "Cakes", path: "/cakes" },
     { name: "Menu", path: "/menu" },
     { name: "Garlic Breads", path: "/garlic-breads" },
-    { name: "Berlines", path: "/berlines" },
-    { name: "Contact", path: "/contact" },
   ];
 
   return (
